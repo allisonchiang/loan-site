@@ -1,0 +1,29 @@
+{
+    "Name": "Freddie's Laundromat",
+    "SelfReportedCashFlow": 1000000.0,
+    "Address": {
+        "Address1": "1234 Red Ln",
+        "Address2": "5678 Blue Rd",
+        "City": "Santa Monica",
+        "State": "CA",
+        "Zip": "45321"
+    },
+    "TaxID": "123456123",
+    "Phone": "000000000",
+    "NAICS": "79232",
+    "HasBeenProfitable": true,
+    "HasBankruptedInLast7Years": false,
+    "InceptionDate": "2008-06-28T23:04:03.5507585+00:00"
+}
+
+{
+    "Name": "Freddie's Laundromat",
+    "SelfReportedCashFlow": 1000000.0,
+    "Address": "940 Amsterdam Ave",
+    "TaxID": "123456123",
+    "Phone": "000000000",
+    "NAICS": "79232",
+    "HasBeenProfitable": true,
+    "HasBankruptedInLast7Years": false,
+    "InceptionDate": "2008-06-28T23:04:03.5507585+00:00"
+}
