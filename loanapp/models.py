@@ -20,7 +20,8 @@ class Address(models.Model):
 
 class Business(models.Model):
     Name = models.CharField(max_length=255)
-    SelfReportedCashFlow = models.FloatField(max_length=255)
+    SelfReportedCashFlow = models.FloatField()
+    # Address = SeparatedValuesField()
     Address = models.ForeignKey(Address, on_delete=models.CASCADE)
     TaxID = models.CharField(max_length=255)
     Phone = models.CharField(max_length=255)
